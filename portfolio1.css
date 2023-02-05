@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{ 
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{ 
+    width: 12%;
+ }
+ .nav-links{
+    flex: 1;
+    text-align: right;
+ }
+ .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+ }
+ .nav-links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+ }
+ .nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display:block;
+    margin: auto;
+    transition: 0.5;
+ }
+ .nav-links ul li:hover::after{
+     width:100%;
+ }
+ .text1{
+    width:100%;
+    color:#fff;
+    position: absolute;
+    top:30%;
+    right:18%;
+    text-align:center; 
+ }
+ .text1 h6{
+    font-size:20px;
+    color:darkgray;
+ }
+ .text1 h1{
+    font-size:50px;
+ }
+ .about{
+    border-radius: 20px; 
+    text-size-adjust: 10;
+    height: 3%; 
+    width: 8%;
+    color:pink;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(34, 79, 150);
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+ }
+ .image1{
+    position: absolute;
+    top:30%;
+    right:3%;
+ }
+ .image1 img{
+    width:25%;
+ }
+ .image2{
+    position: absolute;
+    top:30%;
+    right:25%;
+ }
+ .image2 img{
+   width:25%;
+}
+ .text2{
+   width:100%;
+   color:#fff;
+   position: absolute;
+   top:30%;
+   left:50%;
+   right:5%;
+ }
+ .text2 h3{
+   color: rgb(255, 85, 113);
+
+ }
+ .text2 h6{
+   color: cornsilk;
+ }
+ .cv{
+   border-radius: 20px; 
+   text-size-adjust: 10;
+   height: 3%; 
+   width: 8%;
+   color:pink;
+   margin-top: 10px;
+   padding: 10px;
+   background-color: rgb(34, 79, 150);
+   font-size: 15px;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+ }
